@@ -49,8 +49,8 @@
           </div>
         </div>
       </div>
-      <div class="left-arrow w-slider-arrow-left"><img src="images/slider-arrow-left.svg" loading="lazy" alt=""></div>
-      <div class="right-arrow w-slider-arrow-right"><img src="images/slider-arrow-right.svg" loading="lazy" alt=""></div>
+      <div class="left-arrow w-slider-arrow-left"><img src="/images/slider-arrow-left.svg" loading="lazy" alt=""></div>
+      <div class="right-arrow w-slider-arrow-right"><img src="/images/slider-arrow-right.svg" loading="lazy" alt=""></div>
       <div class="slide-nav-2 w-slider-nav w-round"></div>
     </div>
   </div>

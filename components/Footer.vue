@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="container">
-      <div class="w-layout-grid _12-column-grid footer-grid"><img src="images/Bauhem-logo.svg" loading="lazy" id="w-node-_74d47d9c-4851-1e0b-4de4-9d05d2a25c91-ae2af369" alt="" class="footer-logo">
+      <div class="w-layout-grid _12-column-grid footer-grid"><img src="/images/Bauhem-logo.svg" loading="lazy" id="w-node-_74d47d9c-4851-1e0b-4de4-9d05d2a25c91-ae2af369" alt="" class="footer-logo">
         <p id="w-node-_04bfa1d3-3219-343f-d7fb-2b53b1aa485e-ae2af369" class="text-large footer-company-description">We team up with ambitious global brands. <a href="#" class="inline-text-link">Let’s stay in touch</a>
         </p>
         <div id="w-node-b50a5951-156f-7980-d406-c84594209218-ae2af369" class="newsletter-form-container">

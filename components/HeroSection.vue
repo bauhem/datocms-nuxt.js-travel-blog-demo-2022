@@ -24,7 +24,7 @@
           aria-current="page"
           class="brand w-inline-block w--current"
           ><img
-            src="images/Bauhem-logo.svg"
+            src="/images/Bauhem-logo.svg"
             loading="lazy"
             data-w-id="94966ec1-06fd-807f-46b7-ad568a0e338a"
             id="w-node-_94966ec1-06fd-807f-46b7-ad568a0e338a-5867234d"
@@ -69,7 +69,7 @@
         </video>
       </div>
       <img
-        src="images/Rectangle-294-min.png"
+        src="/images/Rectangle-294-min.png"
         loading="lazy"
         srcset="
           images/Rectangle-294-min-p-500.png   500w,
@@ -99,13 +99,13 @@
           class="scroll-down-arrow-container"
         >
           <img
-            src="images/chevron-down.svg"
+            src="/images/chevron-down.svg"
             loading="lazy"
             data-w-id="62d4b2ea-041c-de61-f117-ab3b99afbee6"
             alt=""
             class="scroll-down-arrow top-arrow"
           /><img
-            src="images/chevron-down.svg"
+            src="/images/chevron-down.svg"
             loading="lazy"
             data-w-id="c254ca20-79ce-94ec-ade9-8d3b1cebf6ae"
             alt=""
