@@ -1,3 +1,5 @@
+import en from './locales/en.json'
+import fr from './locales/fr.json'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
@@ -21,12 +23,8 @@ export default defineNuxtConfig({
       legacy: false,
       locale: 'en',
       messages: { 
-        en: {
-          welcome: 'Welcome'
-        },
-        fr: {
-          welcome: 'Bienvenue'
-        }
+        en,
+        fr
        },
       fallbackLocale: ['en', 'fr'],
     }
