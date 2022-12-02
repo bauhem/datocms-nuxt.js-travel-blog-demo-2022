@@ -55,7 +55,6 @@ const ready = computed(() => !!data.value)
 
 useHead({
   htmlAttrs: {
-    lang: `route.params.lang`,
         "data-wf-page": "6388d1f4ab22f1395867234d",
     }
 })
