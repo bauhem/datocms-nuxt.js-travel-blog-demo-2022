@@ -1,4 +1,3 @@
-import Vue from 'vue'
 import jQuery from 'jquery'
 
 const initWebFlow = () => {
