@@ -3,6 +3,8 @@ import i18n from './config/i18n'
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   app: {
+    target: 'static',
+    buildDir: 'dist',
     buildModules: [
       /* other modules */
       [
