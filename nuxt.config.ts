@@ -3,8 +3,11 @@ import fr from './locales/fr.json'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+
+
   modules: [
     '@nuxtjs/i18n',
+    '@nuxtjs/partytown'
   ],
   i18n: {
     // add `vueI18n` option to `@nuxtjs/i18n` module options
