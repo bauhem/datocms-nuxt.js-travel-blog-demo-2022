@@ -1,4 +1,3 @@
-import i18n from './config/i18n'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
@@ -6,24 +5,6 @@ export default defineNuxtConfig({
     target: 'static',
     buildDir: 'dist',
     buildModules: [
-      /* other modules */
-      [
-        '@nuxtjs/i18n',
-        {
-          vueI18nLoader: true,
-          defaultLocale: 'fr',
-          locales: [{
-              code: 'en',
-              name: 'English'
-            },
-            {
-              code: 'fr',
-              name: 'Français'
-            }
-          ],
-          vueI18n: i18n
-        }
-      ]
     ],
     plugins: [
       '@/plugins/webflow.client',
