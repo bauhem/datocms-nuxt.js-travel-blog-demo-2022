@@ -1,14 +1,37 @@
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  modules: [
+    '@nuxtjs/i18n',
+  ],
+  i18n: {
+    // add `vueI18n` option to `@nuxtjs/i18n` module options
+    locales: [
+      {
+        code: 'en',
+        name: 'English'
+      },
+      {
+        code: 'fr',
+        name: 'Français'
+      }
+    ], // used in URL path prefix
+    defaultLocale: 'en',   // default locale of your project for Nuxt pages and routings
+    vueI18n: {
+      legacy: false,
+      locale: 'en',
+      messages: { 
+        en: {
+          welcome: 'Welcome'
+        },
+        fr: {
+          welcome: 'Bienvenue'
+        }
+       },
+      fallbackLocale: ['en', 'fr'],
+    }
+  },
   app: {
-    target: 'static',
-    buildDir: 'dist',
-    buildModules: [
-    ],
-    plugins: [
-      '@/plugins/webflow.client',
-    ],
     head: {
       title: 'bauhem-nuxt',
       htmlAttrs: {

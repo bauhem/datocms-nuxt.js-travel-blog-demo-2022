@@ -1,5 +1,5 @@
 {
-
-  "message": "Insérez votre message"
-  
+  "hello": "Écrire un message",
+  "language": "Francais",
+  "welcome": "Bienvenue"
 }

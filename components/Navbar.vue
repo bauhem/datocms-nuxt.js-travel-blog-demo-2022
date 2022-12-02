@@ -1,5 +1,9 @@
 <template>
     <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar position-absolute w-nav">
+   <NuxtLink v-for="locale in availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)">{{
+    locale.name
+  }}</NuxtLink>
+  <p style="color:white">{{$t('welcome')}}</p>
     <div class="nav-container">
       <a href="index.html" aria-current="page" class="nav-logo w-inline-block w--current"><img src="/images/Bauhem-logo.svg" loading="lazy" alt=""></a>
       <nav role="navigation" id="w-node-_18ef0839-e789-e19a-0eb2-1ac625c19b69-25c19b65" data-w-id="18ef0839-e789-e19a-0eb2-1ac625c19b69" class="nav-menu w-nav-menu">
@@ -30,12 +34,13 @@
       </div>
     </div>
   </div>
+      
 </template>
 
-<script>
-export default {
-  props: {
-    item: Object,
-  },
-};
+<script setup>
+const { locale, locales } = useI18n()
+const switchLocalePath = useSwitchLocalePath()
+const availableLocales = computed(() => {
+  return (locales.value).filter(i => i.code !== locale.value)
+})
 </script>

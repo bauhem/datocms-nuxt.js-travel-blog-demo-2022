@@ -1,3 +1,5 @@
 {
-  "message": "Write your message"
+  "hello": "Write your message",
+  "language": "English",
+  "welcome": "Welcome"
 }
