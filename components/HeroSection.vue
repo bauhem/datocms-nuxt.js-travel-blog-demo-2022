@@ -14,8 +14,8 @@
             <div class="label-dot"></div>
             <p class="text-small">Welcome</p>
           </div>
-          <h1 class="text-xl home-hero-heading">
-            Enable® is a strategic design company giving global brands an edge
+          <h1 class="text-xl home-hero-heading" v-html="item.paragraph.replace(/<[^>]+>/g, '')">
+            
           </h1>
         </div>
         <a

@@ -1994,9 +1994,9 @@ fast-glob@^3.2.11, fast-glob@^3.2.12, fast-glob@^3.2.5, fast-glob@^3.2.7:
     micromatch "^4.0.4"
 
 fastq@^1.6.0:
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.13.0.tgz#616760f88a7526bdfc596b7cab8c18938c36b98c"
-  integrity sha512-YpkpUnK8od0o1hmeSc7UUs/eB/vIPWJYjKck2QKIzAf71Vm1AAQ3EbuZB3g2JIy+pg+ERD0vqI79KyZiB2e2Nw==
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.14.0.tgz#107f69d7295b11e0fccc264e1fc6389f623731ce"
+  integrity sha512-eR2D+V9/ExcbF9ls441yIuN6TI2ED1Y2ZcA5BmMtJsOkWOFRJQ0Jt0g1UwqXJJVAb+V+umH5Dfr8oh4EVP7VVg==
   dependencies:
     reusify "^1.0.4"
 
@@ -4339,10 +4339,10 @@ vue-bundle-renderer@^1.0.0:
   dependencies:
     ufo "^1.0.0"
 
-vue-datocms@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/vue-datocms/-/vue-datocms-3.0.3.tgz#4aa2960b7351bf2afb9d784db2bb32d30ba7ac95"
-  integrity sha512-SHEvZXdqJZI/qM6KSs6MQkO1Ml4C0rovBcLrfEKNVAjI8c7WRpLG+pKu9eGaTQEY/gZpzVwu4IAksBrqWBTS5w==
+vue-datocms@^4.0.0:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/vue-datocms/-/vue-datocms-4.0.1.tgz#5a57e5f25020722e645cc41be11b227e4615cdab"
+  integrity sha512-HmD4+U3zNsaJjBy2I5WZkSNttmUSITju5Fi5TzslPYbpjP6Mq39EaQieI7TC9PfkSoA42VAHjMvA968Fvy7zrw==
   dependencies:
     datocms-listen "^0.1.10"
     datocms-structured-text-generic-html-renderer "^2.0.4"
